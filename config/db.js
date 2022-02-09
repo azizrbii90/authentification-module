@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const fs = require('fs');
 let env = JSON.parse(JSON.stringify(require('../.env.json')));
 
 

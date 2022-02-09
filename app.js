@@ -20,4 +20,6 @@ app.all('/*', function(req, res, next) {
     }
 });
 
+app.use('/api', require('./components/user'));
+
 module.exports = app;
